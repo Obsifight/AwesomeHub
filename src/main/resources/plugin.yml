@@ -1,0 +1,11 @@
+name: ${project.name}
+authors: [ThisIsMac, Rellynn]
+softdepend: [PermissionsEx, GroupManager, BossBarAPI]
+main: me.awesomehub.hub.AHPlugin
+description: ${project.description}
+version: ${project.version}
+commands:
+  awesomehub:
+    aliases: [ah, hub]
+    permission: awesomehub.admin
+    description: The main command of AwesomeHub.
